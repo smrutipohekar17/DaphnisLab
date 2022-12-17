@@ -1,0 +1,228 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.mainLoginInput{
+  height: 40px;
+  padding: 0px;
+  font-size: 30px;
+  margin: 5px 0;
+}
+
+.mainLoginInput::-webkit-input-placeholder { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: black;
+}
+
+.mainLoginInput::-moz-placeholder  { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(9, 40%, 60%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Chicle&family=Dosis:wght@300&family=Heebo:wght@300&family=Koulen&family=PT+Sans:ital@0;1&family=PT+Serif:ital@1&family=Quintessential&family=Work+Sans&display=swap'); 
+*{
+  font-family: 'Heebo', sans-serif;
+}
+.navbar{
+  padding-top: 7rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  background-color: rgb(118, 24, 24);
+  height: 50px;
+  padding: 10px;
+  justify-content: space-between;
+  color: #ddddf7;
+}
+.container{
+  background-color: #e9ecef;
+}
+.search input[type=text] {
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  height:2.2em;
+  width: 28em;
+}
+.search button{
+  background-color: #25a18e;
+  color: white;
+  height:3.08em;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 9em;
+  border: none;
+}
+.search button:hover{
+  background-color: rgb(63, 202, 220);
+  color: black;
+}
+.searchBar{
+ padding-left: 0.8em;
+ padding-top: 0.8em;
+ height: 4em;
+}
+.path{
+  padding-left: 0.8em;
+  padding-top: 0.5em;
+}
+.title{
+  padding-left: 0.5em;
+  font-size:30px;
+  padding-right: 0.4em;
+}
+.title2{
+  font-size:21px;
+}
+.b1{
+  background-color: #25a18e;
+  color: white;
+  height:2.08em;
+  border:none;
+  border-radius: 4px;
+  padding-right: 0.8em;
+  margin: 0.8em;
+  
+  width: 7.5em;
+}
+.navlogin{
+  padding-right: 50px;
+}
+.b2{
+  color: red;
+  background-color: #e9ecef;
+  border: none;
+}
+
+ul{
+  list-style: none;
+  padding-left:0.9em;
+  margin-top: 0;
+}
+.but{
+  background-color:white;
+  color: black;
+  height:3.2em;
+  border:none;
+  border-radius: 0;
+  padding-right: 0.8em;
+  padding-left: 0;
+  
+  width: 14.4em;
+}
+.main{
+  padding-left: 0;
+  display: flex;
+}
+tr{
+  padding-left: 0;
+}
+.lab{
+  background-color: gray;
+  height: 2.5em;
+  padding-top: 0.8em;
+  padding-left: 2em;
+  margin-left: 1em;
+  align-content: center;
+  text-align: left;
+  width: 10em;
+  
+}
+.meds{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 0.125re;
+  align-content: flex-start;
+}
+.card{
+  width: 22vw;
+  height: 390px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  border: solid black 1px;
+  text-align: center;
+  margin:1.55rem;
+}
+.card img {
+  padding: 5px 0px;
+  width: 95%;
+  height: 53%;
+  border-radius: 5px;
+}
+
+.name {
+  font-weight: 600;
+}
+.prize{
+  font-size: 1.5rem;
+}
+.prize .rupee {
+  font-size: 1.2rem;
+  font-weight: 1000;
+  color: brown;
+}
+.prize .stripe {
+  font-size: 1rem;
+  color: slategrey;
+}
+.pharma {
+  padding-top: 10px;
+  font-weight: 1000;
+}
+.address{
+  font-weight: 200;
+  color: slategrey;
+  padding-bottom: 10px;
+}
+.contact {
+  border-top: solid 1px slategray;
+  border-bottom: solid 18px brown;
+  border-radius: 0px 0px 5px 5px;
+  font-weight: 1000;
+  color:#25a18e;
+}
+.contact img{
+  width: 4px;
+}
+.breadcrumbs{
+  height: 0.1rem;
+
+  padding: 10px;
+  font-family: sans-serif;
+}
+.breadcrumbs__item{
+  display: inline-block;
+
+}
+.breadcrumbs__item:not(:last-of-type)::after{
+  content: '>';
+  margin: 0 5px;
+  color: #cccccc;
+
+}
+.breadcrumbs__link{
+  color: black;
+  text-decoration: none;
+  color: #999999;
+}
+.but:hover {
+  background-color: rgb(23, 206, 185);;
+}
